@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----- COLOR ----- */
+$grey: #c4c8cc;
+$magenta: #eb008d;
+
+/* MIX */
+
+.active {
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+nav {
+  display: flex;
+  font-size: 20px;
+  height: 100px;
+}
+
+nav section {
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: $grey;
+}
+/* nav_lef */
+.nav_left {
+  width: 30%;
+}
+
+.nav_left img {
+  padding-bottom: 5px;
+}
+
+/* nav_right */
+.nav_right {
+  width: 70%;
+  justify-content: flex-end;
+}

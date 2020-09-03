@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ----- COLOR ----- */
+/* MIX */
+.active {
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  height: 100px;
+}
+
+nav section {
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c4c8cc;
+}
+
+/* nav_lef */
+.nav_left {
+  width: 30%;
+}
+
+.nav_left img {
+  padding-bottom: 5px;
+}
+
+/* nav_right */
+.nav_right {
+  width: 70%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=style.css.map */
